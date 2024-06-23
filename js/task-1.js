@@ -3,7 +3,7 @@
 function slugify(title) {
     const normalizedTitle = title.toLowerCase();
     const wordTitle = normalizedTitle.split(" ");
-    return wordTitle.join("-")
+    return wordTitle.join("-");
 }
 
 console.log(slugify("Arrays for begginers")); // "arrays-for-begginers"
